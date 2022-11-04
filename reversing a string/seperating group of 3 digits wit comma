@@ -1,3 +1,9 @@
 def q2(n):
      total_ammount = n
    return('{:,}'.format(total_ammount))
+
+
+
+# or do this
+
+return '{:n}.format(n)
