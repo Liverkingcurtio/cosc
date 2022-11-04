@@ -4,3 +4,12 @@
   6     for i in a:
   7         b.append(i)
   8     return(' '.join(b))
+
+
+
+  #or do this
+  
+  x = sentence.split()
+  x = reversed(x)
+  x = ' '.join(x)
+  return x
