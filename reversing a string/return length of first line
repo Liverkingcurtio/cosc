@@ -1,0 +1,8 @@
+   def q7(filename):
+      with open(filename) as f:
+              return len(f.readline())-1
+ 
+      '''
+      TLO: 112-SCRPY005, LSA 1
+      Given a filename, open the file and return the length of the first line
+      in the file excluding the line terminator.
