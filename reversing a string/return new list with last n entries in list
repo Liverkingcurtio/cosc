@@ -1,0 +1,2 @@
+ def q3(lst,n):
+      return lst[-n:]
