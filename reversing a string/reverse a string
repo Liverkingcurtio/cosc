@@ -1,0 +1,6 @@
+  3 def q1(sentence):
+  4     a = sentence.split()[::-1]
+  5     b = []
+  6     for i in a:
+  7         b.append(i)
+  8     return(' '.join(b))
