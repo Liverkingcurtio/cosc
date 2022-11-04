@@ -1,0 +1,3 @@
+ def q8(strng):
+     a = map(len, strng.split())
+     return min(a)
