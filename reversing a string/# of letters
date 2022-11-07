@@ -1,0 +1,2 @@
+with open('travel_plans.txt') as fp:
+        num = len(fp.read())
