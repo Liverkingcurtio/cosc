@@ -1,0 +1,6 @@
+
+with open ('emotion_words.txt') as fp:
+    words = fp.read()
+    split = words.split()
+    num_words = len(split)
+    print(split)
