@@ -1,0 +1,5 @@
+def q3(lst,n):
+
+  nl = []
+  nl = lst[-n:]
+  return nl
