@@ -1,0 +1,13 @@
+def get_grade(s1, s2, s3):
+    three = (s1 + s2 + s3)
+    ave = three/3
+    if(ave<=100 and ave>90):
+        return 'A'
+    elif(ave<90 and ave>=80):
+        return 'B'
+    elif(ave<80 and ave>=70):    
+        return 'C'
+    elif(ave<70 and ave>=60):
+        return 'D'
+    else:
+        return "F"
