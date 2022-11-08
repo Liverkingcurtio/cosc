@@ -1,1 +1,6 @@
+redirection 
 
+echo $PATH > info_path 
+
+
+will redirect command to new file, if said file doesnt exist it will create a new one
